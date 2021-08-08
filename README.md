@@ -2,4 +2,6 @@
 
 # Live Version is [: here :](https://grocery-shopping-list-creator.herokuapp.com/)
 
-Demo: ![demo](./client/src/demo.png)
+### Demo: 
+***
+![demo](./client/src/demo.png)
