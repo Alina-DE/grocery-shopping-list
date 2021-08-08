@@ -1,0 +1,80 @@
+/* my reset css */
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.App h1, h2, h3, h4 {
+  color: darkblue;
+  padding: 10px 0
+}
+
+.App button {
+  cursor: pointer;
+}
+
+
+.listItem {
+  border: 2px solid darkblue;
+  width: 300px;
+  border-radius: 5px;
+  margin: 10px auto;
+  padding: 10px 5px;
+  text-align: left;
+  font-weight: bold;
+}
+
+.listItem:nth-of-type(even) { 
+  background-color: rgba(0, 0, 139, 0.08);
+}
+
+.listItem:hover {
+  box-shadow: 0 0 10px gray;
+}
+
+.listItem span {
+  display: inline-block;
+  width: 227px;
+  padding: 5px;
+  margin-left: 5px;
+}
+
+.listItem button {
+  vertical-align: middle;
+  background-color: inherit;
+  width: 26px;
+  height: 26px;
+  border-radius: 4px;
+  padding: 2px 0;
+}
+
+.listItem button:hover {
+  background-color: darkblue;
+  color: white;
+}
+
+
+/* Add Item component */
+.addItem input {
+  width: 240px;
+  padding: 5px;
+  border-radius: 5px 0 0 5px
+}
+.addItem button {
+  background-color: rgba(0, 0, 139, 0.7);
+  color: white;
+  font-weight: bold;
+  margin: 10px 0;
+  padding: 6px 10px; 
+  border-radius: 5px;
+  text-shadow: 0 0 5px black;
+}
+.addItem button:hover {
+  background-color: darkblue;
+}
