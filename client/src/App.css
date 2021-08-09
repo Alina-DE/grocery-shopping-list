@@ -1,18 +1,11 @@
-/* my reset css */
-*, *::before, *::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 .App {
   text-align: center;
-  padding: 20px 0;
+  padding-bottom: 20px;
 }
 
 .App h1, h2, h3, h4 {
   color: darkblue;
-  padding: 10px 0
+  padding: 15px 0
 }
 
 .App button {
@@ -61,6 +54,15 @@
 
 
 /* Add Item component */
+.addItem {
+  width: 340px;
+  margin: auto;
+  position: sticky;
+  top: 0;
+  background-image: radial-gradient(ellipse at bottom,#EBEBF6, white);
+  box-shadow: 0 8px 10px -10px gray;
+  border-bottom: 2px solid darkblue;
+}
 .addItem input {
   width: 240px;
   padding: 5px;
