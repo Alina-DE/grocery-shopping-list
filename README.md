@@ -1,6 +1,7 @@
-# grocery-shopping-list
-
-# Live Version is [: here :](https://grocery-shopping-list-creator.herokuapp.com/)
+## Grocery Shopping List
+### MERN stack project
+***
+## Live Version is [= here =](https://grocery-shopping-list-creator.herokuapp.com/)
 
 ### Demo: 
 ***
